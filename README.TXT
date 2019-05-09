@@ -1,12 +1,8 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Concentration PLTW
+PURPOSE OF PROJECT: Fixed the PLTW code so it works and plays concentration.
+VERSION or DATE: 5-9-19
+HOW TO START THIS PROJECT: Run ConcentrationRunner.class
+AUTHORS: Wilson Mayfield + PLTW
+My comments don't have a space between the // and the comment.
+PLTW comment: // comment
+My comments: //comment
