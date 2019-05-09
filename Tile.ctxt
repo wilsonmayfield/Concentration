@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Tile
+comment0.text=\n\ A\ tile\ in\ the\ game\ of\ Concentration,\ i\n\ Tiles\ are\ arranged\ on\ an\ n\ x\ m\ board,\ represented\ in\ a\ 2-dim\ array\n\ \n\ In\ this\ version,\ a\ tile\ contains\ a\ card,\ similar\ to\ a\ playing\ card.\ Cards\n\ have\ string\ values\ for\ their\ "face\ up"\ and\ "face\ down"\ state.\ Each\ tile\n\ is\ shown\ face\ up\ or\ face\ down\ on\ the\ board.\n\ \n\ A\ tile\ can\ also\ have\ a\ "cardMatched",\ indicateing\ the\ card\ has\ been\ matched\n\ with\ another\ card\ and\ has\ been\ removed\ from\ the\ board.\ We\ use\ this\ value\ \n\ instead\ of\ a\ blank\ value\ or\ a\ missing\ tile\ because\ it\ helps\ to\ represent\n\ the\ m\ x\ n\ game\ board\ when\ tiles\ would\ otherwise\ be\ blank\ or\ missing.\n\ \n
+comment1.params=word
+comment1.target=Tile(java.lang.String)
+comment1.text=\n\ Construct\ a\ tile\ with\ a\ string\ value.\ The\ default\ state\n\ of\ a\ tile\ is\ unmatched\ and\ face\ down\ on\ the\ board.\n\ \n\ @param\ \ word\ the\ word\ that\ represents\ the\ card\ face\n
+comment2.params=
+comment2.target=java.lang.String\ getFace()
+comment2.text=\n\ Return\ the\ value\ of\ the\ tile\ in\ its\ face\ up\ state\n\ \ \n\ @return\ faceUp\ \n
+comment3.params=
+comment3.target=java.lang.String\ getBack()
+comment3.text=\n\ Return\ the\ value\ of\ the\ tile\ in\ its\ face\ down\ state\n\ \n\ @return\ the\ face\ (as\ a\ String\ value)\n
+comment4.params=b
+comment4.target=void\ faceUp(boolean)
+comment4.text=\n\ Set\ the\ card\ to\ either\ a\ face\ up\ or\ face\ down\ state\n\ \n\ @param\ b\ set\ to\ true\ to\ show\ the\ card\ face\ up,\ set\ to\ false\ to\ show\ face\ down\n
+comment5.params=
+comment5.target=boolean\ isFaceUp()
+comment5.text=\n\ Determine\ if\ the\ card\ is\ currently\ face\ up\n\ \n\ @return\ true\ if\ the\ card\ is\ currently\ in\ the\ faceUp\ state,\ false\ otherwise\n
+comment6.params=
+comment6.target=void\ foundMatch()
+comment6.text=\n\ A\ matching\ pair\ of\ cards\ has\ been\ found,\ set\ matched\ to\ true\n\ and\ change\ the\ way\ the\ card\ is\ shown\ \n
+comment7.params=
+comment7.target=boolean\ matched()
+comment7.text=\n\ Determine\ if\ this\ tile\ has\ been\ matched\n\ \n\ @return\ true\ of\ the\ card\ was\ previously\ matched,\ false\ otherwise\n
+numComments=8

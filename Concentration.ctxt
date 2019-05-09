@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Concentration
+comment0.text=\n\ The\ game\ of\ Concentration\ (also\ called\ Memory\ or\ Match\ Match)\n\ \n\ Create\ a\ gameboard\ of\ tiles.\ Each\ tile\ contains\ a\ card\ that\ has\ exactly\n\ one\ match\ on\ the\ board.\ Cards\ are\ originally\ show\ "face\ down"\ on\ the\ board.\n\ \n\ Player\ chooses\ two\ random\ cards\ from\ the\ board.\ The\ chosen\ cards\n\ are\ temporarily\ shown\ face\ up.\ If\ the\ cards\ match,\ they\ are\ removed\ from\ board.\n\ \n\ Play\ continues,\ matching\ two\ cards\ at\ a\ time,\ until\ all\ cards\ have\ been\ matched.\n
+comment1.params=
+comment1.target=Concentration()
+comment1.text=\ \n\ The\ constructor\ for\ the\ game.\ Creates\ the\ 2-dim\ gameboard\n\ by\ populating\ it\ with\ tiles.\n
+comment2.params=
+comment2.target=boolean\ allTilesMatch()
+comment2.text=\n\ Determine\ if\ the\ board\ is\ full\ of\ cards\ that\ have\ all\ been\ matched,\n\ indicating\ the\ game\ is\ over\n\ \n\ Precondition\:\ gameboard\ is\ populated\ with\ tiles\n\ \n\ @return\ true\ if\ all\ pairs\ of\ cards\ have\ been\ matched,\ false\ otherwse\n
+comment3.params=row1\ column1\ row2\ column2
+comment3.target=java.lang.String\ checkForMatch(int,\ int,\ int,\ int)
+comment3.text=\n\ Check\ for\ a\ match\ between\ the\ cards\ in\ the\ two\ tile\ locations.\n\ For\ matched\ cards,\ remove\ from\ the\ board.\ For\ unmatched\ cares,\ them\ face\ down\ again.\n\ \n\ Precondition\:\ gameboard\ is\ populated\ with\ tiles,\n\ row\ values\ (i\ values)\ must\ be\ in\ the\ range\ of\ 0\ to\ gameboard.length,\n\ column\ values\ (j\ values)\ must\ be\ in\ the\ range\ of\ 0\ to\ gameboard[0].length\n\ \n\ @param\ row1\ the\ row\ value\ of\ Tile\ 1\n\ @param\ column1\ the\ column\ value\ of\ Tile\ 1\n\ @param\ row2\ the\ row\ value\ of\ Tile\ 2\n\ @param\ column2\ the\ column\ vlue\ of\ Tile\ 2\n\ @return\ a\ message\ indicating\ whether\ or\ not\ a\ match\ occured\n
+comment4.params=row\ column
+comment4.target=void\ showFaceUp(int,\ int)
+comment4.text=\n\ Set\ \ tile\ to\ show\ its\ card\ in\ the\ face\ up\ state\n\ \n\ Precondition\:\ gameboard\ is\ populated\ with\ tiles,\n\ row\ values\ (i\ values)\ must\ be\ in\ the\ range\ of\ 0\ to\ gameboard.length,\n\ column\ values\ (j\ values)\ must\ be\ in\ the\ range\ of\ 0\ to\ gameboard[0].length\n\ \n\ @param\ row\ the\ row\ value\ of\ Tile\n\ @param\ column\ the\ column\ value\ of\ Tile\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Returns\ a\ string\ representation\ of\ the\ board.\ A\ tab\ is\ placed\ between\ tiles,\n\ and\ a\ newline\ is\ placed\ at\ the\ end\ of\ a\ row\n\ \n\ Precondition\:\ gameboard\ is\ populated\ with\ tiles\n\ \n\ @return\ a\ string\ representation\ of\ the\ board\n
+numComments=6

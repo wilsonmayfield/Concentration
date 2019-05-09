@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\n\ Board\:\ A\ n\ x\ m\ game\ board\ made\ of\ of\ individualab\ tiles.\n\ \n\ For\ the\ game\ of\ concentraiton",the\ board\ is\ made\ up\ of\n\ pairs\ of\ matching\ strings,\ one\ string\ per\ tile.\ \n\ \n\ Precondition\:\ the\ size\ of\ the\ cards\ array\ must\ fit\ into\ the\ rows/columns\ shape\ of\ the\ board\n
+comment1.params=
+comment1.target=Tile[][]\ makeBoard()
+comment1.text=\n\ Create\ a\ 2-dim\ array\ to\ represent\ a\ game\ board\ and\ return\ it\n\ Randomizes\ the\ converted\ cards\ Array\ List\ and\ converts\ it\ back\ into\ a\ regular\ Array\n
+comment2.params=
+comment2.target=java.lang.String[]\ getCards()
+comment2.text=\n\ Return\ the\ array\ of\ cards\n
+numComments=3
